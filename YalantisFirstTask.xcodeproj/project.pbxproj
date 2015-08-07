@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324BC96E1B7496CF0095A7D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC96D1B7496CF0095A7D1 /* main.m */; };
+		324BC9711B7496CF0095A7D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC9701B7496CF0095A7D1 /* AppDelegate.m */; };
+		324BC9771B7496CF0095A7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324BC9751B7496CF0095A7D1 /* Main.storyboard */; };
+		324BC9791B7496CF0095A7D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324BC9781B7496CF0095A7D1 /* Images.xcassets */; };
+		324BC97C1B7496CF0095A7D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324BC97A1B7496CF0095A7D1 /* LaunchScreen.xib */; };
+		324BC9881B7496CF0095A7D1 /* YalantisFirstTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC9871B7496CF0095A7D1 /* YalantisFirstTaskTests.m */; };
+		324BC9991B7496E00095A7D1 /* RiderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC9921B7496E00095A7D1 /* RiderModel.m */; };
+		324BC99A1B7496E00095A7D1 /* YAListOfRiders.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC9941B7496E00095A7D1 /* YAListOfRiders.m */; };
+		324BC99B1B7496E00095A7D1 /* YARidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC9961B7496E00095A7D1 /* YARidersTableViewController.m */; };
+		324BC99C1B7496E00095A7D1 /* YARiderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BC9981B7496E00095A7D1 /* YARiderTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		324BC9821B7496CF0095A7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324BC9601B7496CF0095A7D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324BC9671B7496CF0095A7D1;
+			remoteInfo = YalantisFirstTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324BC9681B7496CF0095A7D1 /* YalantisFirstTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YalantisFirstTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324BC96C1B7496CF0095A7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324BC96D1B7496CF0095A7D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		324BC96F1B7496CF0095A7D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		324BC9701B7496CF0095A7D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		324BC9761B7496CF0095A7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		324BC9781B7496CF0095A7D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		324BC97B1B7496CF0095A7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		324BC9811B7496CF0095A7D1 /* YalantisFirstTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YalantisFirstTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324BC9861B7496CF0095A7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324BC9871B7496CF0095A7D1 /* YalantisFirstTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YalantisFirstTaskTests.m; sourceTree = "<group>"; };
+		324BC9911B7496E00095A7D1 /* RiderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiderModel.h; sourceTree = "<group>"; };
+		324BC9921B7496E00095A7D1 /* RiderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiderModel.m; sourceTree = "<group>"; };
+		324BC9931B7496E00095A7D1 /* YAListOfRiders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAListOfRiders.h; sourceTree = "<group>"; };
+		324BC9941B7496E00095A7D1 /* YAListOfRiders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAListOfRiders.m; sourceTree = "<group>"; };
+		324BC9951B7496E00095A7D1 /* YARidersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YARidersTableViewController.h; sourceTree = "<group>"; };
+		324BC9961B7496E00095A7D1 /* YARidersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YARidersTableViewController.m; sourceTree = "<group>"; };
+		324BC9971B7496E00095A7D1 /* YARiderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YARiderTableViewCell.h; sourceTree = "<group>"; };
+		324BC9981B7496E00095A7D1 /* YARiderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YARiderTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324BC9651B7496CF0095A7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324BC97E1B7496CF0095A7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324BC95F1B7496CF0095A7D1 = {
+			isa = PBXGroup;
+			children = (
+				324BC96A1B7496CF0095A7D1 /* YalantisFirstTask */,
+				324BC9841B7496CF0095A7D1 /* YalantisFirstTaskTests */,
+				324BC9691B7496CF0095A7D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324BC9691B7496CF0095A7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324BC9681B7496CF0095A7D1 /* YalantisFirstTask.app */,
+				324BC9811B7496CF0095A7D1 /* YalantisFirstTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324BC96A1B7496CF0095A7D1 /* YalantisFirstTask */ = {
+			isa = PBXGroup;
+			children = (
+				324BC9911B7496E00095A7D1 /* RiderModel.h */,
+				324BC9921B7496E00095A7D1 /* RiderModel.m */,
+				324BC9931B7496E00095A7D1 /* YAListOfRiders.h */,
+				324BC9941B7496E00095A7D1 /* YAListOfRiders.m */,
+				324BC9951B7496E00095A7D1 /* YARidersTableViewController.h */,
+				324BC9961B7496E00095A7D1 /* YARidersTableViewController.m */,
+				324BC9971B7496E00095A7D1 /* YARiderTableViewCell.h */,
+				324BC9981B7496E00095A7D1 /* YARiderTableViewCell.m */,
+				324BC96F1B7496CF0095A7D1 /* AppDelegate.h */,
+				324BC9701B7496CF0095A7D1 /* AppDelegate.m */,
+				324BC9751B7496CF0095A7D1 /* Main.storyboard */,
+				324BC9781B7496CF0095A7D1 /* Images.xcassets */,
+				324BC97A1B7496CF0095A7D1 /* LaunchScreen.xib */,
+				324BC96B1B7496CF0095A7D1 /* Supporting Files */,
+			);
+			path = YalantisFirstTask;
+			sourceTree = "<group>";
+		};
+		324BC96B1B7496CF0095A7D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				324BC96C1B7496CF0095A7D1 /* Info.plist */,
+				324BC96D1B7496CF0095A7D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		324BC9841B7496CF0095A7D1 /* YalantisFirstTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				324BC9871B7496CF0095A7D1 /* YalantisFirstTaskTests.m */,
+				324BC9851B7496CF0095A7D1 /* Supporting Files */,
+			);
+			path = YalantisFirstTaskTests;
+			sourceTree = "<group>";
+		};
+		324BC9851B7496CF0095A7D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				324BC9861B7496CF0095A7D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324BC9671B7496CF0095A7D1 /* YalantisFirstTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324BC98B1B7496CF0095A7D1 /* Build configuration list for PBXNativeTarget "YalantisFirstTask" */;
+			buildPhases = (
+				324BC9641B7496CF0095A7D1 /* Sources */,
+				324BC9651B7496CF0095A7D1 /* Frameworks */,
+				324BC9661B7496CF0095A7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YalantisFirstTask;
+			productName = YalantisFirstTask;
+			productReference = 324BC9681B7496CF0095A7D1 /* YalantisFirstTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		324BC9801B7496CF0095A7D1 /* YalantisFirstTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324BC98E1B7496CF0095A7D1 /* Build configuration list for PBXNativeTarget "YalantisFirstTaskTests" */;
+			buildPhases = (
+				324BC97D1B7496CF0095A7D1 /* Sources */,
+				324BC97E1B7496CF0095A7D1 /* Frameworks */,
+				324BC97F1B7496CF0095A7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324BC9831B7496CF0095A7D1 /* PBXTargetDependency */,
+			);
+			name = YalantisFirstTaskTests;
+			productName = YalantisFirstTaskTests;
+			productReference = 324BC9811B7496CF0095A7D1 /* YalantisFirstTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324BC9601B7496CF0095A7D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Dima;
+				TargetAttributes = {
+					324BC9671B7496CF0095A7D1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					324BC9801B7496CF0095A7D1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 324BC9671B7496CF0095A7D1;
+					};
+				};
+			};
+			buildConfigurationList = 324BC9631B7496CF0095A7D1 /* Build configuration list for PBXProject "YalantisFirstTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324BC95F1B7496CF0095A7D1;
+			productRefGroup = 324BC9691B7496CF0095A7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324BC9671B7496CF0095A7D1 /* YalantisFirstTask */,
+				324BC9801B7496CF0095A7D1 /* YalantisFirstTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324BC9661B7496CF0095A7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BC9771B7496CF0095A7D1 /* Main.storyboard in Resources */,
+				324BC97C1B7496CF0095A7D1 /* LaunchScreen.xib in Resources */,
+				324BC9791B7496CF0095A7D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324BC97F1B7496CF0095A7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324BC9641B7496CF0095A7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BC99A1B7496E00095A7D1 /* YAListOfRiders.m in Sources */,
+				324BC99B1B7496E00095A7D1 /* YARidersTableViewController.m in Sources */,
+				324BC9711B7496CF0095A7D1 /* AppDelegate.m in Sources */,
+				324BC99C1B7496E00095A7D1 /* YARiderTableViewCell.m in Sources */,
+				324BC9991B7496E00095A7D1 /* RiderModel.m in Sources */,
+				324BC96E1B7496CF0095A7D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324BC97D1B7496CF0095A7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BC9881B7496CF0095A7D1 /* YalantisFirstTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		324BC9831B7496CF0095A7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324BC9671B7496CF0095A7D1 /* YalantisFirstTask */;
+			targetProxy = 324BC9821B7496CF0095A7D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		324BC9751B7496CF0095A7D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324BC9761B7496CF0095A7D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		324BC97A1B7496CF0095A7D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324BC97B1B7496CF0095A7D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324BC9891B7496CF0095A7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		324BC98A1B7496CF0095A7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324BC98C1B7496CF0095A7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YalantisFirstTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		324BC98D1B7496CF0095A7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YalantisFirstTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		324BC98F1B7496CF0095A7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YalantisFirstTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YalantisFirstTask.app/YalantisFirstTask";
+			};
+			name = Debug;
+		};
+		324BC9901B7496CF0095A7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YalantisFirstTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YalantisFirstTask.app/YalantisFirstTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324BC9631B7496CF0095A7D1 /* Build configuration list for PBXProject "YalantisFirstTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324BC9891B7496CF0095A7D1 /* Debug */,
+				324BC98A1B7496CF0095A7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324BC98B1B7496CF0095A7D1 /* Build configuration list for PBXNativeTarget "YalantisFirstTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324BC98C1B7496CF0095A7D1 /* Debug */,
+				324BC98D1B7496CF0095A7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		324BC98E1B7496CF0095A7D1 /* Build configuration list for PBXNativeTarget "YalantisFirstTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324BC98F1B7496CF0095A7D1 /* Debug */,
+				324BC9901B7496CF0095A7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324BC9601B7496CF0095A7D1 /* Project object */;
+}
